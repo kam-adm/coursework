@@ -43,7 +43,7 @@ class VK:
 
 
 
-access_token = 'vk1.a.3mfRpbZct6w7osjG_Gk4QsThugGhy_tZRgF6rtLE-2qjJlS0ecwUkoXiteLYcwZbFPvkLVmkh-tLQnmPuE2oHyLyqzULiPmwYOkZ_IElUbrzddxJl9lf147LvMFnM0zclrJhP3zPEXnyWsPvOcLwKukNfq_Kxl8OJMmYy5xFyhoxrtBh0MquQRh-PuMnpSVer1_AKn4yaQzhvL2jcwKh2A'
+access_token = ''
 user_id = int(input("Введите id пользователя:"))
 logging.info('Введён id пользователя.')
 vk = VK(access_token, user_id)

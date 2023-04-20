@@ -7,7 +7,6 @@ logging.basicConfig(level=logging.INFO, filename="py_log.log", filemode="w",
 
 TOKEN = input("Введите токен яндекс диска: ")
 logging.info('Введён токен яндекс диска.')
-#   y0_AgAAAAAjh3IKAADLWwAAAADfDtIpM-cZ3pvnSI2GH15syvQOdJ513jE
 
 
 class YandexDisk:
