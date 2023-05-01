@@ -71,6 +71,7 @@ requests-toolbelt==0.9.1
 SecretStorage==3.3.1
 six==1.16.0
 systemd-python==234
+tqdm==4.65.0
 ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
