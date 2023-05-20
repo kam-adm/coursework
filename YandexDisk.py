@@ -1,11 +1,11 @@
 import requests
+import json
 import logging
-
-
+import time
+from tqdm import tqdm
 logging.basicConfig(level=logging.INFO, filename="py_log.log", filemode="w",
                      format="%(asctime)s %(levelname)s %(message)s"
                      )
-
 
 class YandexDisk:
     def __init__(self, token):
@@ -36,7 +36,7 @@ class YandexDisk:
         href = data.get('href')
         return href
 
-    def upload_file_to_disk(self, url, disk_file_path):
+    def upload_file_to_disk (self, url, disk_file_path):
         upload_url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
         headers = self.get_headers()
         params = {"url": url, "path": disk_file_path, "overwrite": "true"}
@@ -44,3 +44,19 @@ class YandexDisk:
         if response.status_code != 202:
             logging.error(f'Изображение не загружено, код ошибки:{response.status_code} (Проверьте правильность ввода ключа яндекс диска!)')
             exit()
+    def upload_files(self, foto_sort):
+        json_list_of_uploaded_photos = []
+        for key, value in foto_sort.items():
+            logging.info(f'Получена ссылка на загрузку изображения: {key}')
+            self.upload_file_to_disk(f'{key}', f'vk_backup_foto/{value[0][0]}.jpg')
+            logging.info(f'Изображению присвоено имя {value[0][0]}.jpg и оно успешно загружено на яндекс диск!')
+            r = requests.get(url=key)
+            json_list_of_uploaded_photos.append([{"file_name": f'{value[0][0]}.jpg', "size": value[0][1]}])
+            with open('data.json', 'w') as o:
+                json.dump(json_list_of_uploaded_photos, o)
+        logging.info('Все изображения успешно загружены на яндекс диск!')
+
+
+    def loading_progress_bar(self, progress_tracking):
+        for _ in tqdm(progress_tracking):
+            time.sleep(0.2)
