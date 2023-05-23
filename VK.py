@@ -63,6 +63,7 @@ class VK:
        elif data_acquisition['response']['count'] < quantiti_foto_serch:
            logging.info(f"У пользователя в альбоме всего {data_acquisition['response']['count']} фото, это колличество и будет загруженно на яндекс диск!")
        return data_acquisition
+
    def vk_foto_sort(self):
        foto_serch = self.vk_foto_serch()
        quantiti_foto_sort = self.quantiti_foto
@@ -71,12 +72,10 @@ class VK:
        result_foto = {}
        foto_count = 0
        for metadata in foto_serch['response']['items']:
-           url_foto = metadata['sizes'][-1]['url']
-           likes_quantiti = metadata['likes']['count']
-           type_foto = metadata['sizes'][-1]['type']
-           size_foto = metadata['sizes'][-1]['height'] + metadata['sizes'][-1]['width']
-           dict_foto.update({url_foto: [likes_quantiti, type_foto, size_foto]})
-           list_size.append(size_foto)
+           dict_foto.update({metadata['sizes'][-1]['url']: [metadata['likes']['count'], metadata['sizes'][-1]['type'],
+                             metadata['sizes'][-1]['height'] + metadata['sizes'][-1]['width']]}
+                            )
+           list_size.append(metadata['sizes'][-1]['height'] + metadata['sizes'][-1]['width'])
        for key, value in dict_foto.items():
            for sort_foto in nlargest(quantiti_foto_sort, list_size):
                if sort_foto in value:

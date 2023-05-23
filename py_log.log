@@ -1,13 +1,37 @@
-2023-05-20 10:35:57,817 INFO Введён токен яндекс диска.
-2023-05-20 10:36:50,524 INFO Введено колличество фото.
-2023-05-20 10:36:50,524 INFO Введён id пользователя.
-2023-05-20 10:36:50,742 INFO Информация о пользователе загружена!
-2023-05-20 10:36:50,742 INFO Владельцем данного id является: Алёна Вердинская
-2023-05-20 10:36:52,398 INFO Получен список фото для загрузки.
-2023-05-20 10:36:52,399 INFO Получена ссылка на загрузку изображения: https://sun9-20.userapi.com/c10662/u45021278/-6/w_c5837aa2.jpg
-2023-05-20 10:36:53,101 INFO Изображению присвоено имя 22.jpg и оно успешно загружено на яндекс диск!
-2023-05-20 10:36:53,839 INFO Получена ссылка на загрузку изображения: https://sun9-39.userapi.com/impf/xS4PxzjwWAdlBNTczwgoU3j6A_YVbpM6aDt6WQ/-vgbR38PJ3c.jpg?size=1280x1280&quality=96&sign=4e089b9b7401d5c3efeacb6da0f7998a&c_uniq_tag=ZHfUb52qFV6GIdUOqAQAUVCWSfVZqsjifK6DxwPku2E&type=album
-2023-05-20 10:36:54,433 INFO Изображению присвоено имя 14.jpg и оно успешно загружено на яндекс диск!
-2023-05-20 10:36:55,414 INFO Получена ссылка на загрузку изображения: https://sun9-19.userapi.com/impf/uAHAjOWmpKRQqdkM5TimFTu9fpifBwPxjPeetQ/260_H8_Nd0o.jpg?size=1280x1280&quality=96&sign=bccb7dffe3262db831955a46fa591651&c_uniq_tag=XZDAq5HzhSK-Md74MDBS4HssjejgA1DKc0aK49QzRlM&type=album
-2023-05-20 10:36:55,969 INFO Изображению присвоено имя 21.jpg и оно успешно загружено на яндекс диск!
-2023-05-20 10:36:56,720 INFO Все изображения успешно загружены на яндекс диск!
+2023-05-23 11:54:35,592 INFO Введён токен яндекс диска.
+2023-05-23 11:54:59,936 INFO Введено колличество фото.
+2023-05-23 11:54:59,936 INFO Введён id пользователя.
+2023-05-23 11:55:00,181 INFO Информация о пользователе загружена!
+2023-05-23 11:55:00,182 INFO Владельцем данного id является: Просто Саня
+2023-05-23 11:55:01,539 INFO Получен список фото для загрузки.
+2023-05-23 11:55:01,539 INFO Получена ссылка на загрузку изображения: https://sun9-74.userapi.com/impf/c621825/v621825461/66f4/0QT8ucx6NFg.jpg?size=1280x720&quality=96&sign=5f9fd0ca5f4a4588f2b9667c07dca961&c_uniq_tag=PSLTAg8owYPdrCcVdUPMXcnmPvTt3bYC2upNY4kZ0Vw&type=album
+2023-05-23 11:55:02,059 INFO Изображению присвоено имя 3.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:02,265 INFO Получена ссылка на загрузку изображения: https://sun9-78.userapi.com/impf/c631221/v631221461/4a8f3/lZZPfTSjPZE.jpg?size=810x1080&quality=96&sign=6c4a4cfa61e2df396c334c198b65ba84&c_uniq_tag=YLuVghtUxZ5LiJSmP5NpFEvmkXg-96-2wGofpge54TU&type=album
+2023-05-23 11:55:02,923 INFO Изображению присвоено имя 13.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:03,325 INFO Получена ссылка на загрузку изображения: https://sun9-15.userapi.com/impf/LU190H0dLwqU63siu1g-bPUmgVvvGbhtzj2hkA/sGkmjT2zYxs.jpg?size=1280x960&quality=96&sign=f640ad8fbca0ed4a4cb759cbd616dd4a&c_uniq_tag=L2f3C7nQE4clHDWIj9qjBAbP3R_Q0eXdjGcVlbK0-oU&type=album
+2023-05-23 11:55:03,980 INFO Изображению присвоено имя 3.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:04,582 INFO Получена ссылка на загрузку изображения: https://sun9-41.userapi.com/impf/Udm6impcMOGzHLUdWixHOwZEEWEuZNN4IBSU8g/_Rd-hozQF4c.jpg?size=1280x960&quality=96&sign=b66af8035b12aa5db867438140c6af06&c_uniq_tag=3mG1TkRCdthtwsaeHSFVvLGpDonszO6Ni46llBJ3gpw&type=album
+2023-05-23 11:55:05,145 INFO Изображению присвоено имя 2.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:05,947 INFO Получена ссылка на загрузку изображения: https://sun9-77.userapi.com/impf/c636920/v636920461/5e94d/iJekqY4lrj0.jpg?size=810x1080&quality=96&sign=dbf8c366991e141409a6732cd3ac9578&c_uniq_tag=Ba9VRzDfILbwmvXYCooTcQiI_oNSNb0Bv7ukGZE9UWY&type=album
+2023-05-23 11:55:06,485 INFO Изображению присвоено имя 4.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:07,488 INFO Получена ссылка на загрузку изображения: https://sun9-51.userapi.com/impf/c636920/v636920461/5e95c/FddgDP05vE4.jpg?size=810x1080&quality=96&sign=fbf05927ce0852a231f491de85e12156&c_uniq_tag=XAdegQBLy0tmEcDgvAuoVeDUsbnb978jMeHOf29aAI0&type=album
+2023-05-23 11:55:08,143 INFO Изображению присвоено имя 5.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:09,347 INFO Получена ссылка на загрузку изображения: https://sun9-39.userapi.com/impf/c636920/v636920461/5ef2a/yOfyNiD0cK0.jpg?size=810x1080&quality=96&sign=6eccf694549512397a02f49730ec528c&c_uniq_tag=6OV4LHK9d0b8iP8iV4cJa8HP_O1D_dFYs8ihhFUinI4&type=album
+2023-05-23 11:55:09,870 INFO Изображению присвоено имя 5.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:11,275 INFO Получена ссылка на загрузку изображения: https://sun9-25.userapi.com/impf/c637124/v637124461/356e0/UtYe2Zfk4Ts.jpg?size=810x1080&quality=96&sign=6055ff0add65d143497d0dc77785e37c&c_uniq_tag=Yq70k84dpRi6RwuM4pXGEVo3Pv1PBTwSHawRPq0RqqQ&type=album
+2023-05-23 11:55:11,763 INFO Изображению присвоено имя 3.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:13,368 INFO Получена ссылка на загрузку изображения: https://sun9-53.userapi.com/impf/c837533/v837533461/3e4a5/Ohob_bVJKY8.jpg?size=810x1080&quality=96&sign=8c22acf871b875d60caf478552e9db6a&c_uniq_tag=mUvBFy5fTKWUPq2OwLQTxB7ktrnLKk3qY5oBm4bYu4k&type=album
+2023-05-23 11:55:13,887 INFO Изображению присвоено имя 4.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:15,693 INFO Получена ссылка на загрузку изображения: https://sun9-14.userapi.com/impf/c637127/v637127461/5058c/7MvCMQa9HTo.jpg?size=810x1080&quality=96&sign=2c5801a591852e9009c9e57140350477&c_uniq_tag=qm4-N60NjCK8wHio-JkIXOBrAu0GkSOk6Z01me3vfqI&type=album
+2023-05-23 11:55:16,276 INFO Изображению присвоено имя 4.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:18,283 INFO Получена ссылка на загрузку изображения: https://sun9-74.userapi.com/impf/c638420/v638420461/44d87/I6psANX1X7w.jpg?size=810x1080&quality=96&sign=871d5a6cb51af0dc9890e6149d9cd40f&c_uniq_tag=IRrHdc0evCWGcs-JBvpfTo615qG1vD5xmOn1hJOWmLQ&type=album
+2023-05-23 11:55:18,772 INFO Изображению присвоено имя 7.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:20,981 INFO Получена ссылка на загрузку изображения: https://sun9-35.userapi.com/impf/c840126/v840126461/df6a/uCeiUInThR0.jpg?size=810x1080&quality=96&sign=037c684f2bbcb519bfeff590e360bc08&c_uniq_tag=BvgDQaOg80KZFrrGUy3kJwM_NsqaLH9CeHppOcQWbt8&type=album
+2023-05-23 11:55:21,508 INFO Изображению присвоено имя 9.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:23,917 INFO Получена ссылка на загрузку изображения: https://sun9-6.userapi.com/impf/c836423/v836423252/5e802/AQXfMPrh7b0.jpg?size=1280x960&quality=96&sign=c3824e7a636fca8654d24150da2d1d2a&c_uniq_tag=fwQG3zB9NcFIJQOB1i8p_UvJ3wn92ETdAwchVKR7ZKA&type=album
+2023-05-23 11:55:24,430 INFO Изображению присвоено имя 7.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:27,038 INFO Получена ссылка на загрузку изображения: https://sun9-9.userapi.com/impf/c836423/v836423252/5e822/gBkrFQxBYWM.jpg?size=1280x960&quality=96&sign=5b8b79798124ebf990ca6257b5ac1bdb&c_uniq_tag=kDDIZRzOX36Gt71bYMx3_2dbMWaXvC8TOWhF4XlXtCE&type=album
+2023-05-23 11:55:27,714 INFO Изображению присвоено имя 5.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:30,524 INFO Получена ссылка на загрузку изображения: https://sun9-51.userapi.com/impf/c836423/v836423252/5e8a9/ijrNWSZtK74.jpg?size=1280x960&quality=96&sign=00b0df19bafafde6269d0a58cf28aa98&c_uniq_tag=LH9qwYj8JyyfOV8AI_gTYF1DKrCBvlW7xF-J5RbwIcI&type=album
+2023-05-23 11:55:31,092 INFO Изображению присвоено имя 7.jpg и оно успешно загружено на яндекс диск!
+2023-05-23 11:55:34,102 INFO Все изображения успешно загружены на яндекс диск!

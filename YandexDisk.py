@@ -50,13 +50,9 @@ class YandexDisk:
             logging.info(f'Получена ссылка на загрузку изображения: {key}')
             self.upload_file_to_disk(f'{key}', f'vk_backup_foto/{value[0][0]}.jpg')
             logging.info(f'Изображению присвоено имя {value[0][0]}.jpg и оно успешно загружено на яндекс диск!')
-            r = requests.get(url=key)
             json_list_of_uploaded_photos.append([{"file_name": f'{value[0][0]}.jpg', "size": value[0][1]}])
+            for _ in tqdm(json_list_of_uploaded_photos):
+                time.sleep(0.2)
             with open('data.json', 'w') as o:
                 json.dump(json_list_of_uploaded_photos, o)
         logging.info('Все изображения успешно загружены на яндекс диск!')
-
-
-    def loading_progress_bar(self, progress_tracking):
-        for _ in tqdm(progress_tracking):
-            time.sleep(0.2)
