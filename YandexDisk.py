@@ -46,13 +46,12 @@ class YandexDisk:
             exit()
     def upload_files(self, foto_sort):
         json_list_of_uploaded_photos = []
-        for key, value in foto_sort.items():
+        for key, value in tqdm(foto_sort.items()):
+            time.sleep(0.2)
             logging.info(f'Получена ссылка на загрузку изображения: {key}')
             self.upload_file_to_disk(f'{key}', f'vk_backup_foto/{value[0][0]}.jpg')
             logging.info(f'Изображению присвоено имя {value[0][0]}.jpg и оно успешно загружено на яндекс диск!')
             json_list_of_uploaded_photos.append([{"file_name": f'{value[0][0]}.jpg', "size": value[0][1]}])
-            for _ in tqdm(json_list_of_uploaded_photos):
-                time.sleep(0.2)
             with open('data.json', 'w') as o:
                 json.dump(json_list_of_uploaded_photos, o)
         logging.info('Все изображения успешно загружены на яндекс диск!')
